@@ -1,0 +1,11 @@
+# Default-deny: o git ignora TUDO nesta pasta...
+*
+
+# ...menos o que estiver liberado aqui embaixo.
+# Só o index.html cifrado vai para o GitHub.
+!.gitignore
+!index.html
+
+# Por que assim: qualquer arquivo novo que cair nesta pasta (rascunho, foto,
+# reserva em PDF, backup do roteiro) já nasce ignorado. Para publicar algo
+# novo é preciso liberar de propósito, com um "!" — nunca por esquecimento.
